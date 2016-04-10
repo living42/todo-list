@@ -3,11 +3,11 @@ var path = require('path')
 
 module.exports = {
   build: {
-    index: path.resolve(__dirname, 'dist/index.html'),
-    assetsRoot: path.resolve(__dirname, 'dist'),
+    index: path.resolve(__dirname, 'index.html'),
+    assetsRoot: path.resolve(__dirname),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/',
-    productionSourceMap: true
+    assetsPublicPath: '/todo-list/',
+    productionSourceMap: false
   },
   dev: {
     port: 8080,
